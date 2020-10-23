@@ -36,7 +36,7 @@ resource "google_compute_instance" "node-svc-02" {
     }
   }
 
-   networks to attach to the VM
+  # networks to attach to the VM
   network_interface {
     network = "default"
     access_config {} // use ephemeral public IP
