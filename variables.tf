@@ -1,6 +1,6 @@
 # Provider configuration variables
 variable "project_id" {
-  description = "Project ID in GCP"
+  description = "my-project-1541030594382"
 }
 
 variable "region" {
