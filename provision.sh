@@ -13,9 +13,9 @@ gcloud compute instances create node-svc-02 \
     --machine-type f1-micro
 
 # add firewall rule
-gcloud compute firewall-rules create allow-node-svc-tcp-3000 \
+gcloud compute firewall-rules create allow-node-svc-tcp-30100 \
     --network default \
     --action allow \
     --direction ingress \
-    --rules tcp:3000 \
+    --rules tcp:30100 \
     --source-ranges 0.0.0.0/0
