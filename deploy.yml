@@ -1,6 +1,6 @@
 ---
 - name: Deploy node-svc App
-  hosts: node-svc-grp
+  hosts: node-svc-02
   tasks:
     - name: Ansible copy multiple files with_items
       copy:
