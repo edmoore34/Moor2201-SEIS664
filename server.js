@@ -137,7 +137,7 @@ function buildURL (strLevel) {
 
   // what is the formula for which node to call? 
   // given x levels and n nodes
-  // x % n  where x>n, else n
+  // x % n  where x>n, else n mm
   
       
   let intCurrLevel = parseInt(strLevel);
