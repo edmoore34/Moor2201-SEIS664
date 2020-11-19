@@ -39,7 +39,7 @@ app.get('/999', (req, res) => {
 })
 
 // simplest get; recursion end point
-app.get('/20?', (req, res) => {     // matches either / or /0
+app.get('/0?', (req, res) => {     // matches either / or /0
   (async () => {
     // A simple change is to alter the returned data, 
     // e.g. change "ThisAction" to "Action"
