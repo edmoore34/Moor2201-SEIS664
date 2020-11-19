@@ -10,7 +10,7 @@
 //const arrNodes = [ "node-svc-01" ]                                  // for 1 VM
 //const arrNodes = [ "node-svc-01", "node-svc-02" ]                   // for 2 VMs
 //const arrNodes = [ "node-svc-01", "node-svc-02" , "node-svc-03" ]   // for 3 VMs
-const arrNodes = [ process.env.NODE_SVC_PUBLIC_SERVICE_HOST  ];       //  use this for K8S
+//const arrNodes = [ process.env.NODE_SVC_PUBLIC_SERVICE_HOST  ];       //  use this for K8S
 
 console.log("service host is " + arrNodes[0]);
 
