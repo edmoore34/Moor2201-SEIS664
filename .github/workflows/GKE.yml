@@ -23,6 +23,7 @@ env:
   GKE_ZONE: us-central1-c   
   DEPLOYMENT_NAME: node-svc-deployment # TODO: update to deployment name
   IMAGE: node-svc
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: TRUE
 
 jobs:
   setup-build-publish-deploy:
