@@ -5,6 +5,7 @@
 
 // vary these constants according to where you are running (GCS, VMs, K8S) and how many VMs you have, if that's the lesson)
 // to do: this should be a command-line parameter that lets the app know how it is running
+// If you are getting the error "Unexpected token ۶ in JSON at position 0" then you will need to look at your GKE_SA_KEY and make sure that this is correct.
 //const arrNodes = [ "localhost" ]                                    // for testing on GCS
  const arrNodes = [ "10.1.1.1" ]                                      // critical to leave this for lab 03 learning
 //const arrNodes = [ "node-svc-01" ]                                  // for 1 VM
